@@ -60,3 +60,226 @@ nav ul li a {
 a:hover {
    color: rgb(190, 190, 190);
 }
+
+
+   /*CONTAINER SLIDER*/
+
+   .text h1 {
+    font-size: 50px;
+    text-align: center;
+    padding: 100px;
+    color: rgb(5, 167, 19);
+    font-family: 'Cormorant Garamond', serif; 
+}
+
+.containerSlider {
+    background-color: white;
+}
+
+
+    /*FIRST SLIDER*/
+
+.container-slider1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.container-images1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+}
+
+.slideFirst {
+    opacity: 0;
+    transition: opacity 0.2s;
+    position: absolute;
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px silver;
+    border: 1px solid silver;
+}
+
+.one {
+    opacity: 1;
+}
+
+#prevButtonFirst, #nextButtonFirst {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+} 
+
+#prevButtonFirst i, #nextButtonFirst i {
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+}
+
+#text1 {
+    font-size: 30px;
+    margin: 70px;
+}
+
+
+    /*SECOND SLIDER*/
+
+.container-slider2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.container-images2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+}
+
+.slideSecond {
+    opacity: 0;
+    transition: opacity 0.2s;
+    position: absolute;
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px silver;
+    border: 1px solid silver;
+}
+
+.two {
+    opacity: 1;
+}
+
+#prevButtonSecond, #nextButtonSecond {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+} 
+
+#prevButtonSecond i, #nextButtonSecond i {
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+}
+
+#text2 {
+    font-size: 30px;
+    margin: 70px;
+}
+
+
+    /*THIRD SLIDER*/
+
+.container-slider3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.container-images3 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+}
+
+.slideThird {
+    opacity: 0;
+    transition: opacity 0.2s;
+    position: absolute;
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px silver;
+    border: 1px solid silver;
+}
+
+.three {
+    opacity: 1;
+}
+
+#prevButtonThird, #nextButtonThird {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+} 
+
+#prevButtonThird i, #nextButtonThird i {
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+}
+
+#text3 {
+    font-size: 30px;
+    margin: 70px;
+}
+
+
+    /*FOURTH SLIDER*/
+
+.container-slider4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.container-images4 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+}
+
+.slideFourth {
+    opacity: 0;
+    transition: opacity 0.2s;
+    position: absolute;
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px silver;
+    border: 1px solid silver;
+}
+
+.four {
+    opacity: 1;
+}
+
+#prevButtonFourth, #nextButtonFourth {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+} 
+
+#prevButtonFourth i, #nextButtonFourth i {
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+}
+
+#text4 {
+    font-size: 30px;
+    margin: 70px;
+}
