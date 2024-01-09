@@ -12,16 +12,16 @@
 header {
     width: 100vm;
     height: 100vh;
-    background-image: url('images1.jpg');
+    background-image: url('images.jpeg');
     background-position: bottom;
     background-size: cover;
 }
 
 header h2 {
-    font-size: 80px;
+    font-size: 90px;
     font-weight: 600;
     color: white;
-    text-shadow: 3px 3px 3px black;
+    text-shadow: 3px 3px 5px black;
     position: absolute;
     top: 75%;
     left: 25%;
@@ -39,7 +39,7 @@ nav {
 
 h1 {
     color: rgb(3, 3, 128);
-    font-size: 60px;
+    font-size: 70px;
     font-family: 'Caveat', sans-serif;
 }
 
@@ -51,7 +51,7 @@ nav ul li {
 
 nav ul li a {
     color: black;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 500;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
@@ -384,4 +384,3 @@ footer .footOne:hover,
 footer .footTwo:hover {
     color: rgb(136, 133, 133);
 }
-
