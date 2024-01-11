@@ -384,3 +384,85 @@ footer .footOne:hover,
 footer .footTwo:hover {
     color: rgb(136, 133, 133);
 }
+
+
+
+
+@media (max-width:1199px) {
+    .header {
+        padding: 2rem;
+    }
+    header h2 {
+        font-size: 60px;
+    }
+    nav h1 {
+        font-size: 36px;
+    }
+    nav ul li a {
+        font-size: 15px;
+    }
+    .containerSlider .text h1 {
+        font-size: 36px;
+    }
+    .container-slider1,
+    .container-slider2,
+    .container-slider3,
+    .container-slider4 {
+    padding: 50px;
+}
+   .container-images1,
+   .container-images3 {  
+    width: 400px;
+}
+   #text1,
+   #text2,
+   #text3,
+   #text4 {
+    font-size: 28px;
+    margin: 70px;
+}
+.textContact h2 {
+    font-size: 25px;
+}
+.contact-form {
+    position: relative;
+    width: 50%;
+    padding: 0 10px 0 80px;
+}
+}
+
+
+@media (max-width:991px) {
+    .header {
+        padding: 2rem;
+    }
+    header h2 {
+        font-size: 53px;
+    }
+    nav h1 {
+        font-size: 26px;
+    }
+    nav ul li a {
+        font-size: 12px;
+    }
+    .containerSlider .text h1 {
+        font-size: 30px;
+    }
+    .container-slider1,
+    .container-slider2,
+    .container-slider3,
+    .container-slider4 {
+    padding: 20px;
+}
+   .container-images1,
+   .container-images3 {
+    width: 350px;
+}
+   #text1,
+   #text2,
+   #text3,
+   #text4 {
+    font-size: 26px;
+    margin: 70px;
+}
+}
