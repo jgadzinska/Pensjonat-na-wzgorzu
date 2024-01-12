@@ -466,3 +466,106 @@ footer .footTwo:hover {
     margin: 70px;
 }
 }
+
+@media (max-width:768px) {
+    .header {
+        padding: 2rem;
+    }
+    header h2 {
+        font-size: 48px;
+    }
+    nav h1 {
+        font-size: 37px;
+    }
+    nav ul li a {
+        font-size: 11px;
+    }
+    .containerSlider .text h1 {
+        font-size: 23px;
+    }
+    .container-slider1,
+    .container-slider2,
+    .container-slider3,
+    .container-slider4 {
+    padding: 20px;
+}
+   .container-images1,
+   .container-images3{
+    width: 280px;
+}
+.container-images2,
+.container-images4 {
+    width: 400px;
+}
+   #text1,
+   #text2,
+   #text3,
+   #text4 {
+    font-size: 20px;
+    margin: 7px;
+}
+.textContact h2 {
+    font-size: 23px;
+}
+.contact-form {
+    padding:  55px 10px;
+    min-height: 100px;
+    min-width: 350px;
+}
+
+.inputBox span {
+    padding: 2px 0;
+    font-size: 15px;
+}
+
+.btn {
+    width: 100px;
+    padding: 10px 16px;
+    font-size: 14px;
+
+}
+.contact-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    grid: 2rem;
+}
+
+.infoBox .box p {
+    color: black;
+    font-size: 20px;
+}
+.infoBox .box a {
+    font-size: 20px;
+}
+
+.socialMedia li {
+    height: 35px;
+    width: 35px;
+
+}
+
+.socialMedia li i {
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    font-size: 30px;
+}
+
+.socialMedia li i {
+    font-size: 20px;
+
+}
+
+
+footer p{
+    font-size: 13px;
+}
+footer .footOne  {
+    margin: 30px;
+}
+
+
+
+}
