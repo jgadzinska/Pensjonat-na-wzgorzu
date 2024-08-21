@@ -2,229 +2,285 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pensjonat na wzgórzu</title>
+
     <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 
 </head>
 <body>
 
-    <!--HOME-->
-        
-    <header>
-        <nav>
-            <h1>Pensjonat na wzgórzu</h1>
-                <ul class="menu">
-                    <li><a href="#">STRONA GŁÓWNA</a></li>
-                    <li><a href="#">OFERTA</a></li>
-                    <li><a href="#">ATRAKCJE</a></li>
-                    <li><a href="#">REZERWACJA</a></li>
-                    <li><a href="#">KONTAKT</a></li>
-                </ul>
-       </nav>
-            <h2>Witamy w naszym pensjonacie</h2>
-    </header>
+    <!-- Header Section -->
 
+    <section class="header">
 
-           
-    <!--CONTAINER SLIDER-->
+        <div class="flex">
+            <a href="#home" class="logo">Pensjonat na wzgórzu</a>
+            <a href="#reserv" class="btn">Rezerwacja</a>
 
-    <div class="containerSlider">
-
-        <div class="text">
-            <h1>Marzysz o urlopie z dala od zgiełku miasta wśród zieleni 
-                <br> z przepięknym widokiem na jezioro, lasy i zachody słońca? 
-                <br> To miejsce jest dla Ciebie...
-                <br> W naszej ofercie mamy:</h1>
-        </div>
-
-
-         <!--FIRST SLIDER-->
-
-        <div class="container-slider1">
-          
-            <button id="prevButtonFirst"><i class='bx bxs-chevron-left'></i></button>
-                
-                <div class="container-images1">
-                    <img src="images2.jpg" alt="" class="slideFirst one"/>
-                    <img src="images3.jpg" alt="" class="slideFirst"/>
-                    <img src="images4.jpg" alt="" class="slideFirst"/>
-                    <img src="images5.jpg" alt="" class="slideFirst"/>
-                    <img src="images6.jpg" alt="" class="slideFirst"/>
-                </div> 
-           
-            <button id="nextButtonFirst"><i class='bx bxs-chevron-right'></i></button>
-
-            <p id="text1">Pokoje 2,3,4 osobowe. 
-                <br>W każdym oddzielna łazienka, WI-FI i TV.</p>
+            <div id="menu-btn" class="fas fa-bars"></div>
 
         </div>
 
+        <nav class="navbar">
+            <a href="#home">HOME</a>
+            <a href="#about">O NAS</a>
+            <a href="#reservation">REZERWACJA</a>
+            <a href="#gallery">GALERIA</a>
+            <a href="#contact">KONAKT</a>
+        </nav>
 
-         <!--SECOND SLIDER-->
-
-        <div class="container-slider2">
-          
-            <button id="prevButtonSecond"><i class='bx bxs-chevron-left'></i></button>
-                
-                <div class="container-images2">
-                    <img src="images7.jpg" alt="" class="slideSecond two"/>
-                    <img src="images8.jpg" alt="" class="slideSecond"/>
-                    <img src="images9.jpg" alt="" class="slideSecond"/>
-                    <img src="images10.jpg" alt="" class="slideSecond"/>
-                    <img src="images11.jpg" alt="" class="slideSecond"/>
-                </div> 
-           
-            <button id="nextButtonSecond"><i class='bx bxs-chevron-right'></i></button>
-
-            <p id="text2">Serwujemy smaczną domową kuchnię, <br> która jest w cenie pokoii. 
-                <br> Produkty są świeże i ekologiczne prosto z naszego ogrodu.</p>
-
-        </div>
+    </section>
 
 
-         <!--THIRD SLIDER-->
+    <!-- Home Section -->
 
-        <div class="container-slider3">
-          
-            <button id="prevButtonThird"><i class='bx bxs-chevron-left'></i></button>
-                
-                <div class="container-images3">
-                    <img src="images12.jpg" alt="" class="slideThird three"/>
-                    <img src="images13.jpg" alt="" class="slideThird"/>
-                    <img src="images14.jpg" alt="" class="slideThird"/>
-                    <img src="images15.jpg" alt="" class="slideThird"/>
-                    <img src="images16.jpg" alt="" class="slideThird"/>
-                </div> 
+    <section class="home" id="home">
 
-            <button id="nextButtonThird"><i class='bx bxs-chevron-right'></i></button>
+        <div class="swiper home-slider">
 
-            <p id="text3">Spokojna i cicha okolica, piękne widoki. 
-                <br> Otoczenie jezior, lasów, łąk, zwierząt.</p>
+            <div class="swiper-wrapper">
 
-        </div>
-
-
-         <!--FOURTH SLIDER-->
-
-        <div class="container-slider4">
-          
-            <button id="prevButtonFourth"><i class='bx bxs-chevron-left'></i></button>
-                
-                <div class="container-images4">
-                    <img src="images17.jpg" alt="" class="slideFourth four"/>
-                    <img src="images18.jpg" alt="" class="slideFourth"/>
-                    <img src="images19.jpg" alt="" class="slideFourth"/>
-                    <img src="images20.jpg" alt="" class="slideFourth"/>
-                    <img src="images21.jpg" alt="" class="slideFourth"/>
-                </div> 
-
-            <button id="nextButtonFourth"><i class='bx bxs-chevron-right'></i></button>
-
-            <p id="text4">Do dyspozycji gości: jezioro, las, plaża, parking,
-                <br> altana ogrodowa, plac zabaw, gril, ognisko. 
-                <br> Wycieczki piesze i rowerowe, wędkarstwo, kajakarstwo.  </p>
-
-        </div>
-
-    </div>
-
-
-
-
-        <!-- CONTACT US -->
-
-    
-    <section class="contactUs">
-
-        <div class="textContact">
-            <h2>Zapraszamy do kontaktu</h2>
-        </div>
-
-        <div class="contact-section">
-
-
-            <!-- CONCACT INFO -->
-            
-                <div class="contact-info">
-
-                    <div class="infoBox">
-
-                        <div class="box">
-                            <span><i class='bx bx-map'></i></span>
-                            <p>Łukomie, <br> Polska</p>
-                        </div>
-
-                        <div class="box">
-                            <span><i class='bx bx-envelope'></i></span>
-                            <p><a href="mailto:joanna.gadzinska88@wp.pl">joanna.gadzinska88@wp.pl</a></p>
-                        </div>
-
-                        <div class="box">
-                            <span><i class='bx bx-phone'></i></span>
-                            <p><a href="tel:504-904-329">123-456-789</a></p>
-                        </div>
-
-                    </div>   
-
-
-                    <!-- SOCIAL MEDIA -->
-
-                    <div class="socialMedia">
-                        <li><a href=""></a><i class='bx bxl-facebook'></i></li>
-                        <li><a href=""></a><i class='bx bxl-twitter'></i></li>
-                        <li><a href=""></a><i class='bx bxl-tiktok'></i></li>
-                        <li><a href=""></a><i class='bx bxl-instagram-alt'></i></li>
+                <div class="box swiper-slide">
+                    <img src="images/img1.jpg" alt="">
+                    <div class="flex">
+                        <h3>Witamy W Pensjonacie Na Wzgórzu</h3>
                     </div>
-                            
                 </div>
 
+                <div class="box swiper-slide">
+                    <img src="images/img2.webp" alt="">
+                    <div class="flex">
+                        <h3>Witamy W Pensjonacie Na Wzgórzu</h3>
+                    </div>
+                </div>
 
-            
-
-  
-            <!-- CONTACT FORM -->
-
-            <div class="contact-form">
-                <form>
-                    <div class="inputBox">
-                        <input type="text" name="" required="required">
-                        <span>Imię i nazwisko</span>
-                    </div>  
-
-                    <div class="inputBox">
-                        <input type="text" name="" required="required">
-                        <span>Adres email</span>
-                    </div>  
-
-                    <div class="inputBox">
-                        <textarea required="required"></textarea>
-                        <span>Wiadomość</span>
-                    </div>  
-
-                    <input type="submit" value="Wyslij" class="btn">
-
-                </form>
+                <div class="box swiper-slide ">
+                    <img src="images/img3.jpg" alt="">
+                    <div class="flex">
+                        <h3>Witamy W Pensjonacie Na Wzgórzu</h3>
+                    </div>
+                </div>
 
             </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
 
         </div>
         
     </section>
 
 
-         <footer>
-            <p class="foot">Copyright &copy; 2023 JG</p>
-            <p class="footOne">Polityka prywatności</p>
-            <p class="footTwo">Regulamin</p>
-        </footer>
+    <!-- About Section -->
+
+    <section class="about" id="about">
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/img4.jpg" alt="">
+            </div>
+
+            <div class="content">
+                <h3>Przytulne pokoje</h3>
+                <p>Pokoje 2, 3, 4 osobowe oraz rodzinne. W każdym oddzielna łazienka, WI-FI i TV.
+                    Wspólny salon z kominkem.</p>
+            </div>
+
+        </div>
+
+        <div class="row revers">
+
+            <div class="image">
+                <img src="images/img5.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Pyszne jedzenie</h3>
+                <p>Serwujemy smaczną domową kuchnię, która jest w cenie pokoii. Produkty są świeże i ekologiczne prosto z naszego ogrodu.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/img6.webp" alt="">
+            </div>
+            <div class="content">
+                <h3>Spokojna okolica</h3>
+                <p>Spokojna i cicha okolica oraz piękne widoki. Otoczenie jezior, lasów, łąk, zwierząt.</p>
+            </div>
+        </div>
+
+        <div class="row revers">
+            <div class="image">
+                <img src="images/img7.webp" alt="">
+            </div>
+            <div class="content">
+                <h3>Atrakcje</h3>
+                <p>Jezioro, las, plaża. Wycieczki piesze i rowerowe, kajakarstwo. 
+                    Altana ogrodowa, plac zabaw, gril, ognisko.</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Reservation Section -->
+
+    <section class="reservation" id="reservation">
+
+        <form action="" method="post">
+            <h3>Zrób rezerwacje</h3>
+            <div class="flex">
+
+                <div class="box">
+                    <p>Data początku</p>
+                    <input type="date" name="check_in" class="input" required>
+                </div>
+
+                <div class="box">
+                    <p>Data końca</p>
+                    <input type="date" name="check_out" class="input" required>
+                </div>
+
+                <div class="box">
+                    <p>Dorośli</p>
+                    <select name="adults" class="input" required>
+                        <option value="1">1 osoba</option>
+                        <option value="2">2 osoby</option>
+                        <option value="3">3 osoby</option>
+                        <option value="4">4 osoby</option>
+                        <option value="5">5 osób</option>
+                        <option value="6">6 osób</option>
+                    </select>
+                </div>
+
+                <div class="box">
+                    <p>Dzieci</p>
+                    <select name="childs" class="input" required>
+                        <option value="-">0 dzieci</option>
+                        <option value="1">1 dziecko</option>
+                        <option value="2">2 dzieci</option>
+                        <option value="3">3 dzieci</option>
+                        <option value="4">4 dzieci</option>
+                        <option value="5">5 dzieci</option>
+                        <option value="6">6 dzieci</option>
+                    </select>
+                </div>
+
+                <div class="box">
+                    <p>Pokoje</p>
+                    <select name="rooms" class="input" required>
+                        <option value="1">1 osobowy</option>
+                        <option value="2">2 osobowy</option>
+                        <option value="3">3 osobowy</option>
+                        <option value="4">4 osobowy</option>
+                        <option value="5">5 osobowy</option>
+                        <option value="6">Rodzinny</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <input type="submit" value="Zarezerwuj" name="check" class="btn">
+            
+        </form>
+
+    </section>
+
+
+    <!-- Gallery Section -->
+
+    <section class="gallery" id="gallery">
+        <div class="swiper gallery-slider">
+
+            <div class="swiper-wrapper">
+                <img src="images/img8.jpg" class="swiper-slide" alt="">
+                <img src="images/img9.jpg" class="swiper-slide" alt="">
+                <img src="images/img10.jpg" class="swiper-slide" alt="">
+                <img src="images/img11.jpg" class="swiper-slide" alt="">
+                <img src="images/img12.jpg" class="swiper-slide" alt="">
+                <img src="images/img13.jpg" class="swiper-slide" alt="">
+                <img src="images/img14.jpg" class="swiper-slide" alt="">
+                <img src="images/img15.webp" class="swiper-slide" alt="">
+                <img src="images/img16.jpg" class="swiper-slide" alt="">
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+
+    <section class="contact" id="contact">
+
+        <div class="row">
+            <form action="" method="post">
+                <h3>Skontaktuj się z nami</h3>
+
+                <input type="text" name="name" required maxlength="50"
+                placeholder="Imię i nazwisko" class="box">
+
+                <input type="email" name="email" required maxlength="50"
+                placeholder="Email" class="box">
+
+                <input type="number" name="number" required maxlength="10" min="0" max="9999999999"
+                placeholder="Numer telefonu" class="box">
+
+                <textarea name="msg" class="box" required maxlength="1000" 
+                placeholder="Wiadomość" cols="30" rows="10"></textarea>
+
+                <input type="submit" value="Wyślij" name="send" class="btn">
+
+            </form>
+
+        </div>
+
+    </section>
+
+
+    <!-- Footer Section -->
+
+    <section class="footer">
+
+        <div class="box-container">
+            
+            <div class="box">
+                <a href="tel:123456789"><i class="fas fa-phone"></i>123-456-789</a>
+                <a href="tel:333444555"><i class="fas fa-phone"></i>333-444-555</a>
+                <a href="mailto:pensjonat@gmail.com"><i class="fas fa-envelope"></i>pensjonat@gmail.com</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>Polska</a>
+            </div>
+
+            <div class="box">
+                <a href="#home">HOME</a>
+                <a href="#about">O NAS</a>
+                <a href="#reservation">REZERWACJA</a>
+                <a href="#gallery">GALERIA</a>
+                <a href="#contact">KONAKT</a>
+            </div>
+
+            <div class="box">
+                <a href="#">FECEBOOK<i class="fab fa-facebook"></i></a>
+                <a href="#">TWITTER<i class="fab fa-twitter"></i></a>
+                <a href="#">INSTAGRAM<i class="fab fa-instagram"></i></a>
+                <a href="#">YOUTUBE<i class="fab fa-youtube"></i></a>
+            </div>
+
+        </div>
+
+        <div class="credit">&copy; 2024 Pensjonat Na Wzgórzu. Wszelkie prawa zastrzeżone</div>
+
+    </section>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <script src="app.js"></script>
 
 </body>
 </html>
-
-
