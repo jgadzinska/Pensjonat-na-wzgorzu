@@ -1,2 +1,1 @@
-Strona internetowa "Pensjonatu na wzgórzu" .
-Technologie: HTML, CSS, JavaScript z wykorzystaniem Swiper.
+Strona internetowa "Pensjonatu na wzgórzu". Technologie: HTML, CSS, JavaScript z wykorzystaniem Swiper.
