@@ -5,7 +5,6 @@ Technologie: HTML, CSS, JavaScript, Swiper.js.
 Strona internetowa dla pensjonatu.
 
 
-
 Funkcje:
 
 - nawigacja - główne menu nawigacyjne z odnośnikami do najwazniejszych sekcji: strona główna, o nas , rezerwacja, galeria, kontakt.
